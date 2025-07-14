@@ -34,3 +34,22 @@ As a user, I want to enter my mood as a text description, so that I can track ho
 - [ ] Prompt user for mood input.
 - [ ] Store mood in a variable.
 - [ ] Display confirmation message.
+
+|------|---------------------------------------------------------------------------------------------|
+
+## US2 – Sentiment Analysis
+
+**User Story:**  
+As a user, I want the app to analyze the sentiment of my mood text, so that I can understand my emotional state.
+
+**Acceptance Criteria:**
+- The text is analyzed using NLP.
+- A polarity and subjectivity score is returned.
+
+**Tasks:**
+- [ ] Use TextBlob to analyze the text.
+- [ ] Extract `polarity` and `subjectivity` values.
+- [ ] Display sentiment scores (optional).
+
+|------|---------------------------------------------------------------------------------------------|
+
