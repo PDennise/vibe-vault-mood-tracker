@@ -81,3 +81,21 @@ As a user, I want to view my past mood entries in a list, so I can reflect on my
 **Tasks:**
 - [ ] Create function to load and display JSON content.
 - [ ] Format and print each entry (date, mood, sentiment).
+
+|------|---------------------------------------------------------------------------------------------|
+
+## US5 – Plot Mood Graph
+
+**User Story:**  
+As a user, I want to see a graph of my mood over time, so I can identify trends.
+
+**Acceptance Criteria:**
+- A line graph of polarity values over time is shown.
+- The x-axis has dates, y-axis has polarity scores.
+
+**Tasks:**
+- [ ] Load moods from file.
+- [ ] Extract dates and polarities.
+- [ ] Use matplotlib to plot data.
+
+|------|---------------------------------------------------------------------------------------------|
