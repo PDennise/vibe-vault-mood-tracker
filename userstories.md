@@ -161,3 +161,18 @@ As a user, I want the app to prevent saving empty mood entries, so that my data 
 - [ ]Loop until valid input is received.
 |------|---------------------------------------------------------------------------------------------|
 
+## US10 – Load Previous Entries at Startup
+
+**User Story:**
+As a user, I want the app to load existing mood entries automatically when started, so I can continue from where I left off.
+
+**Acceptance Criteria:**
+- Mood entries are loaded from JSON file on program start.
+- If no file exists, start with empty data without errors.
+
+**Tasks:**
+- [ ] Implement loading function on startup.
+- [ ] Handle missing or empty data file gracefully.
+
+|------|---------------------------------------------------------------------------------------------|
+
