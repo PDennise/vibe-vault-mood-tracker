@@ -115,3 +115,17 @@ As a user, I want the app to handle empty states gracefully, so I don’t see er
 
 |------|---------------------------------------------------------------------------------------------|
 
+## US7 – Timestamping
+
+**User Story:**  
+As a user, I want each mood entry to include the date, so I know when I wrote it.
+
+**Acceptance Criteria:**
+- Each mood entry has the current date in `YYYY-MM-DD` format.
+
+**Tasks:**
+- [ ] Use `datetime.now()` to get today’s date.
+- [ ] Include date in saved JSON entry.
+
+|------|---------------------------------------------------------------------------------------------|
+
