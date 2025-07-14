@@ -129,3 +129,20 @@ As a user, I want each mood entry to include the date, so I know when I wrote it
 
 |------|---------------------------------------------------------------------------------------------|
 
+## US8 – CLI Menu with Multiple Options
+
+**User Story:**
+As a user, I want a clear command-line menu to add mood entries, view past entries, or exit, so that navigation is simple and intuitive.
+
+**Acceptance Criteria:**
+A menu is displayed on program start with options (Add, View, Exit).
+User can select options by typing corresponding numbers.
+Invalid choices prompt user to try again.
+
+**Tasks:**
+- [ ]Implement CLI menu with options.
+- [ ]Validate user input for menu choices.
+- [ ]Loop menu until user chooses to exit.
+
+|------|---------------------------------------------------------------------------------------------|
+
