@@ -1,5 +1,13 @@
 VibeVault -Mood Tracker-
 
+<p align="center">
+  <img src="assets/images/vibevaultlogo.png" alt="VibeVault Logo" width="200"/>
+</p>
+
+<h1 align="center">VibeVault - Mood Tracker</h1>
+<p align="center"><em>Track. Reflect. Grow.</em></p>
+
+
 ## Project Overview
 VibeVault is a terminal-based mood tracking application that allows users to log their daily emotions using free-text entries. The app performs sentiment analysis using NLP (TextBlob), stores mood data in a JSON file, and visualizes mood trends over time using matplotlib.
 
