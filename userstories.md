@@ -13,8 +13,8 @@
 | US11 | As a user, I want to view my past mood entries in a list, so that I can reflect on my mood history.                 |
 | US12 | As a user, I want to see a graph of my mood over time, so that I can identify trends.                               |
 | US13 | As a user, I want the app to handle empty states gracefully, so that I don't see errors.                            |
-| US14 | As a user, I want to export my mood data to CSV format and have my moods classified into common emotions (like      |
-|   happy, sad, anxious), so that I can better understand my emotional patterns and analyze them using spreadsheet software. |
+| US14 | As a user, I want to export my mood data to CSV format and have my moods classified into common emotions            |
+|        so that I can better understand my emotional patterns and analyze them using spreadsheet software.                  |
 | US15 | As a user, I want each mood entry to include the date, so that I know when I wrote it.                              |
 | US16 | As a developer, I want to add unit tests, so that I can ensure the code is working as expected and catch bugs early.|
 |------|---------------------------------------------------------------------------------------------------------------------|
