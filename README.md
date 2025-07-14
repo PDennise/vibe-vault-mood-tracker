@@ -21,3 +21,21 @@ This tool aims to help users understand their emotional patterns and promote min
 ✅ Future-ready: tags, emotion classification, time-of-day logging  
 
 ---
+
+🚀 Installation
+1. Clone the repository:
+    git clone https://github.com/PDennise/vibe-vault-mood-tracker.git
+    cd vibe-vault-mood-tracker
+2. Create and Activate Virtual Environment
+    For Mac/Linux:
+        python3 -m venv venv
+        source venv/bin/activate
+    For Windows:
+        python -m venv venv
+        venv\Scripts\activate
+
+3. Install the required libraries:
+    pip install -r requirements.txt
+    
+4. Run the app:
+    python3 main.py
