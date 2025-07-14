@@ -176,3 +176,20 @@ As a user, I want the app to load existing mood entries automatically when start
 
 |------|---------------------------------------------------------------------------------------------|
 
+## US11 – Clear Messages and Feedback
+
+**User Story:**
+As a user, I want clear feedback messages after each action, so I always know if my input was successful or if errors occurred.
+
+**Acceptance Criteria:**
+- Confirmation messages appear after saving data.
+- Error messages appear for invalid inputs.
+- Informational messages guide the user through actions.
+
+Tasks:
+- [ ] Add success messages after saving.
+- [ ] Add error messages for invalid operations.
+- [ ] Improve user prompts and feedback text.
+
+|------|---------------------------------------------------------------------------------------------|
+
