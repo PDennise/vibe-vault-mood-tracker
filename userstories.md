@@ -193,3 +193,20 @@ Tasks:
 
 |------|---------------------------------------------------------------------------------------------|
 
+## US12 – Update or Delete Entry (Optional Stretch Goal)
+
+**User Story:**
+As a user, I want to be able to update or delete past mood entries, so I can correct mistakes or remove unwanted records.
+
+**Acceptance Criteria:**
+- User can select an entry to edit or delete.
+- Changes are saved back to the JSON file.
+- Deletion requests ask for confirmation.
+
+Tasks:
+- [ ] Implement listing with entry selection.
+- [ ] Add update functionality.
+- [ ] Add delete functionality with confirmation prompt.
+
+|------|---------------------------------------------------------------------------------------------|
+
