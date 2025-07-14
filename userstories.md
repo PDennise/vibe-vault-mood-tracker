@@ -257,3 +257,47 @@ As a user, I want to optionally record the time of day when I enter my mood, so 
 - [ ] Update display functions to show time.
 
 |------|---------------------------------------------------------------------------------------------|
+
+
+**MoSCoW List**
+
+| ID  | User Story - 🟥 Must Have                         |
+| --- | --------------------------------------------------|
+| US1 | Mood entry: Enter mood as text                    |
+| US2 | Sentiment analysis with TextBlob                  |
+| US3 | Save entries to JSON                              |
+| US7 | Timestamp each entry with current date.           |
+| US8  | CLI menu with multiple options (Add/View/Exit)   |
+| US9  | Validation: Prevent empty input from being saved |
+| US10 | Load previous entries at startup                 |
+    
+
+
+| ID  | User Story - 🟧 Should Have                                      |
+| --- | -----------------------------------------------------------------|
+| US4 | View past entries in a list                                      |
+| US6 | Handle empty states gracefully (no crash if no data)             |
+| US11 | Clear messages/feedback for each action                         |
+| US12 | Allow user to update or delete an entry (optional stretch goal) |
+
+
+
+| ID  | User Story - 🟩 Could Have                  |
+| --- | --------------------------------------------|
+| US5 | Plot mood graph with matplotlib             |
+| US13 | Tag moods manually (e.g. #anxious, #happy) |
+| US14 | Export data to CSV                         |
+| US15 | Track mood by time of day                  |
+
+
+
+**Here's a breakdown of each category:**
+
+**Must-have:**
+These are essential requirements that are critical for the project's success. Without these, the project cannot be considered complete. 
+**Should-have:**
+These are important requirements that are highly desirable but not absolutely necessary for the project's core functionality. They should be included if possible, but can be postponed or dropped if necessary. 
+**Could-have:**
+These are desirable features that are nice to have but not essential. They can be included if time and resources allow, but are the first to be cut if necessary. 
+**Won't-have:**
+These are requirements that are not planned for the current project iteration or release. They may be considered for future iterations or not at all. 
