@@ -1,21 +1,23 @@
-| ID  | User Story List                                                                                                  |
-|-----|------------------------------------------------------------------------------------------------------------------|
-| US1 | As a user, I want to enter my mood as a text description, so that I can track how I feel.                        |
-| US2 | As a user, I want the app to analyze the sentiment of my mood text, so that I can understand my emotional state. |
-| US3 | As a user, I want my mood entries to be saved automatically, so that I don’t lose them.                          |
-| US4 | As a user, I want to view my past mood entries in a list, so that I can reflect on my mood history.              |
-| US5 | As a user, I want to see a graph of my mood over time, so that I can identify trends.                            |
-| US6 | As a user, I want the app to handle empty states gracefully, so that I don't see errors.                         |
-| US7 | As a user, I want each mood entry to include the date, so that I know when I wrote it.                           |
-| US8 | As a user, I want to enter my mood as a text description, so that I can track how I feel.                        |
-| US9 | As a user, I want the app to analyze the sentiment of my mood text, so that I can understand my emotional state. |
-| US10 | As a user, I want my mood entries to be saved automatically, so that I don’t lose them.                         |
-| US11 | As a user, I want to view my past mood entries in a list, so that I can reflect on my mood history.             |
-| US12 | As a user, I want to see a graph of my mood over time, so that I can identify trends.                           |
-| US13 | As a user, I want the app to handle empty states gracefully, so that I don't see errors.                        |
-| US14 | As a user, I want each mood entry to include the date, so that I know when I wrote it.                          |
-| US15 | As a user, I want each mood entry to include the date, so that I know when I wrote it.                          |
-|------|-----------------------------------------------------------------------------------------------------------------|
+| ID  | User Story List                                                                                                      |
+|-----|----------------------------------------------------------------------------------------------------------------------|
+| US1 | As a user, I want to enter my mood as a text description, so that I can track how I feel.                            |
+| US2 | As a user, I want the app to analyze the sentiment of my mood text, so that I can understand my emotional state.     |
+| US3 | As a user, I want my mood entries to be saved automatically, so that I don’t lose them.                              |
+| US4 | As a user, I want to view my past mood entries in a list, so that I can reflect on my mood history.                  |
+| US5 | As a user, I want to see a graph of my mood over time, so that I can identify trends.                                |
+| US6 | As a user, I want the app to handle empty states gracefully, so that I don't see errors.                             |
+| US7 | As a user, I want each mood entry to include the date, so that I know when I wrote it.                               |
+| US8 | As a user, I want to enter my mood as a text description, so that I can track how I feel.                            |
+| US9 | As a user, I want the app to analyze the sentiment of my mood text, so that I can understand my emotional state.     |
+| US10 | As a user, I want my mood entries to be saved automatically, so that I don’t lose them.                             |
+| US11 | As a user, I want to view my past mood entries in a list, so that I can reflect on my mood history.                 |
+| US12 | As a user, I want to see a graph of my mood over time, so that I can identify trends.                               |
+| US13 | As a user, I want the app to handle empty states gracefully, so that I don't see errors.                            |
+| US14 | As a user, I want to export my mood data to CSV format and have my moods classified into common emotions (like      |
+|   happy, sad, anxious), so that I can better understand my emotional patterns and analyze them using spreadsheet software. |
+| US15 | As a user, I want each mood entry to include the date, so that I know when I wrote it.                              |
+| US16 | As a developer, I want to add unit tests, so that I can ensure the code is working as expected and catch bugs early.|
+|------|---------------------------------------------------------------------------------------------------------------------|
 
 # ✅ User Stories, Acceptance Criteria & Tasks – Mood Tracker
 
@@ -229,16 +231,16 @@ Tasks:
 ## US14 – Export Data to CSV
 
 **User Story:**
-As a user, I want to export my mood data to CSV format, so I can analyze it in spreadsheet software.
+As a user, I want to export my mood data to CSV format and have my moods classified into common emotions (like happy, sad, anxious), so that I can better understand my emotional patterns and analyze them using spreadsheet software.
 
 **Acceptance Criteria:**
-- User can choose to export data as CSV file.
-- Exported file includes date, mood text, polarity, subjectivity, and tags if any.
+- User can export all mood entries to CSV file.
+- Exported file includes date, mood text, polarity, subjectivity, and any tags.
 
 **Tasks:**
 - [ ] Implement CSV export function.
 - [ ] Add menu option for export.
-- [ ] Validate file writing and notify user on success or error.
+- [ ] Validate successful file writing and notify user on success or failure.
 
 |------|---------------------------------------------------------------------------------------------|
 
@@ -258,6 +260,22 @@ As a user, I want to optionally record the time of day when I enter my mood, so 
 
 |------|---------------------------------------------------------------------------------------------|
 
+## US16 - Implement unit testing for core functions
+
+**User Story:**
+As a developer, I want to add unit tests, so that I can ensure the code is working as expected and catch bugs early.
+
+**Acceptance Criteria:**
+- At least key functions (e.g., mood analysis, saving/loading data) have test cases.
+- Tests return pass/fail results in the CLI.
+- Developer can run tests with a single command (e.g., python -m unittest).
+
+**Tasks:**
+- [ ] Set up unittest or pytest.
+- [ ] Write tests for key modules (e.g., mood_analyzer, mood_storage).
+- [ ] Add test runner instructions to README.
+
+|------|---------------------------------------------------------------------------------------------|
 
 **MoSCoW List**
 
@@ -288,6 +306,7 @@ As a user, I want to optionally record the time of day when I enter my mood, so 
 | US13 | Tag moods manually (e.g. #anxious, #happy) |
 | US14 | Export data to CSV                         |
 | US15 | Track mood by time of day                  |
+| US16 | Implement unit testing for core functions  |
 
 
 
