@@ -205,3 +205,9 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# User data
+data/moods.json
+
+# Project notes (not deployed)
+project_structure.md
