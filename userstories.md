@@ -69,3 +69,15 @@ As a user, I want my mood entries to be saved automatically, so that I don’t l
 
 |------|---------------------------------------------------------------------------------------------|
 
+## US4 – View Entries
+
+**User Story:**  
+As a user, I want to view my past mood entries in a list, so I can reflect on my mood history.
+
+**Acceptance Criteria:**
+- User can select an option to see past entries.
+- Entries are printed in a readable format.
+
+**Tasks:**
+- [ ] Create function to load and display JSON content.
+- [ ] Format and print each entry (date, mood, sentiment).
