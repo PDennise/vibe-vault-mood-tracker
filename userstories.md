@@ -210,3 +210,19 @@ Tasks:
 
 |------|---------------------------------------------------------------------------------------------|
 
+## US13 – Tag Moods Manually
+
+**User Story:**
+As a user, I want to tag moods with keywords (e.g. #happy, #anxious), so I can categorize my feelings more easily.
+
+**Acceptance Criteria:**
+- User can input optional tags during mood entry.
+- Tags are saved with the mood entry in JSON.
+
+Tasks:
+- [ ] Add prompt for mood tags on entry.
+- [ ] Validate and save tags with entries.
+- [ ] Display tags when viewing entries.
+
+|------|---------------------------------------------------------------------------------------------|
+
