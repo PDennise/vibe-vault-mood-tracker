@@ -241,3 +241,19 @@ As a user, I want to export my mood data to CSV format, so I can analyze it in s
 - [ ] Validate file writing and notify user on success or error.
 
 |------|---------------------------------------------------------------------------------------------|
+
+## US15 – Track Mood by Time of Day
+
+**User Story:**
+As a user, I want to optionally record the time of day when I enter my mood, so I can see patterns across different times.
+
+**Acceptance Criteria:**
+- Mood entries include time in addition to date.
+- Graph or listing can display mood by time.
+
+**Tasks:**
+- [ ] Capture current time on entry.
+- [ ] Save time info in data model.
+- [ ] Update display functions to show time.
+
+|------|---------------------------------------------------------------------------------------------|
