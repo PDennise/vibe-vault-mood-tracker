@@ -16,3 +16,21 @@
 | US14 | As a user, I want each mood entry to include the date, so that I know when I wrote it.      |
 | US15 | As a user, I want each mood entry to include the date, so that I know when I wrote it.      |
 |------|---------------------------------------------------------------------------------------------|
+
+# ✅ User Stories, Acceptance Criteria & Tasks – Mood Tracker
+
+---
+
+## US1 – Mood Entry
+
+**User Story:**  
+As a user, I want to enter my mood as a text description, so that I can track how I feel.
+
+**Acceptance Criteria:**
+- The user is prompted to write about their mood.
+- The input is saved and acknowledged with a success message.
+
+**Tasks:**
+- [ ] Prompt user for mood input.
+- [ ] Store mood in a variable.
+- [ ] Display confirmation message.
