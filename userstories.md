@@ -99,3 +99,19 @@ As a user, I want to see a graph of my mood over time, so I can identify trends.
 - [ ] Use matplotlib to plot data.
 
 |------|---------------------------------------------------------------------------------------------|
+
+## US6 – Handle Empty State
+
+**User Story:**  
+As a user, I want the app to handle empty states gracefully, so I don’t see errors.
+
+**Acceptance Criteria:**
+- If no data exists, user sees a friendly message.
+- App doesn’t crash when plotting or viewing entries.
+
+**Tasks:**
+- [ ] Check if mood list is empty before using it.
+- [ ] Print fallback message if data is missing.
+
+|------|---------------------------------------------------------------------------------------------|
+
