@@ -53,3 +53,19 @@ As a user, I want the app to analyze the sentiment of my mood text, so that I ca
 
 |------|---------------------------------------------------------------------------------------------|
 
+## US3 – Save to JSON
+
+**User Story:**  
+As a user, I want my mood entries to be saved automatically, so that I don’t lose them.
+
+**Acceptance Criteria:**
+- Each entry is stored in a local JSON file.
+- If the file does not exist, it is created.
+
+**Tasks:**
+- [ ] Create function to load JSON data.
+- [ ] Append new entry to the list.
+- [ ] Write updated list back to file.
+
+|------|---------------------------------------------------------------------------------------------|
+
