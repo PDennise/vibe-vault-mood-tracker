@@ -146,3 +146,18 @@ Invalid choices prompt user to try again.
 
 |------|---------------------------------------------------------------------------------------------|
 
+## US9 – Input Validation: Prevent Empty Input
+
+**User Story:**
+As a user, I want the app to prevent saving empty mood entries, so that my data is meaningful.
+
+**Acceptance Criteria:**
+- If user inputs empty or whitespace-only mood text, app prompts for re-entry.
+- Empty input is never saved to the data file.
+
+**Tasks:**
+- [ ]Add validation check for empty input.
+- [ ]Display error message for invalid input.
+- [ ]Loop until valid input is received.
+|------|---------------------------------------------------------------------------------------------|
+
