@@ -226,3 +226,18 @@ Tasks:
 
 |------|---------------------------------------------------------------------------------------------|
 
+## US14 – Export Data to CSV
+
+**User Story:**
+As a user, I want to export my mood data to CSV format, so I can analyze it in spreadsheet software.
+
+**Acceptance Criteria:**
+- User can choose to export data as CSV file.
+- Exported file includes date, mood text, polarity, subjectivity, and tags if any.
+
+**Tasks:**
+- [ ] Implement CSV export function.
+- [ ] Add menu option for export.
+- [ ] Validate file writing and notify user on success or error.
+
+|------|---------------------------------------------------------------------------------------------|
